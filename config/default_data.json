@@ -1,0 +1,313 @@
+{
+  "peajes_por_destino": {
+    "norte": [
+      {
+        "ciudad": "Antofagasta",
+        "auto_ida": 12100,
+        "camion_ida": 18800
+      },
+      {
+        "ciudad": "La Serena",
+        "auto_ida": 12100,
+        "camion_ida": 18800
+      },
+      {
+        "ciudad": "Ovalle",
+        "auto_ida": 9700,
+        "camion_ida": 15000
+      },
+      {
+        "ciudad": "Illapel",
+        "auto_ida": 7300,
+        "camion_ida": 11200
+      },
+      {
+        "ciudad": "La Ligua",
+        "auto_ida": 4900,
+        "camion_ida": 7600
+      },
+      {
+        "ciudad": "Quillota",
+        "auto_ida": 2500,
+        "camion_ida": 3700
+      },
+      {
+        "ciudad": "Valparaiso",
+        "auto_ida": 4000,
+        "camion_ida": 5000
+      }
+    ],
+    "sur": [
+      {
+        "ciudad": "Rancagua",
+        "auto_ida": 1800,
+        "camion_ida": 3200
+      },
+      {
+        "ciudad": "Curico",
+        "auto_ida": 3600,
+        "camion_ida": 6400
+      },
+      {
+        "ciudad": "Talca",
+        "auto_ida": 5400,
+        "camion_ida": 9600
+      },
+      {
+        "ciudad": "Chillan",
+        "auto_ida": 7200,
+        "camion_ida": 12800
+      },
+      {
+        "ciudad": "Concepcion",
+        "auto_ida": 9000,
+        "camion_ida": 16100
+      },
+      {
+        "ciudad": "Temuco",
+        "auto_ida": 12500,
+        "camion_ida": 22500
+      },
+      {
+        "ciudad": "Valdivia",
+        "auto_ida": 15900,
+        "camion_ida": 28700
+      },
+      {
+        "ciudad": "Osorno",
+        "auto_ida": 17600,
+        "camion_ida": 31800
+      },
+      {
+        "ciudad": "Puerto Montt",
+        "auto_ida": 19800,
+        "camion_ida": 35800
+      }
+    ]
+  },
+  "peajes_individuales": {
+    "norte": [
+      {
+        "nombre": "Lampa",
+        "auto": 1000,
+        "camion": 1400
+      },
+      {
+        "nombre": "Las Vegas",
+        "auto": 1500,
+        "camion": 2300
+      },
+      {
+        "nombre": "Tunel el Melon",
+        "auto": 2400,
+        "camion": 3900
+      },
+      {
+        "nombre": "Pichidangui",
+        "auto": 2400,
+        "camion": 3600
+      },
+      {
+        "nombre": "Troncal Sur Los Vilos - La Serena",
+        "auto": 2400,
+        "camion": 3800
+      },
+      {
+        "nombre": "Troncal Norte Los Vilos - La Serena",
+        "auto": 2400,
+        "camion": 3800
+      }
+    ],
+    "sur": [
+      {
+        "nombre": "Angostura",
+        "auto": 1800,
+        "camion": 3200
+      },
+      {
+        "nombre": "Quinta",
+        "auto": 1800,
+        "camion": 3200
+      },
+      {
+        "nombre": "Rio Claro",
+        "auto": 1800,
+        "camion": 3200
+      },
+      {
+        "nombre": "Retiro",
+        "auto": 1800,
+        "camion": 3200
+      },
+      {
+        "nombre": "Santa Clara",
+        "auto": 1800,
+        "camion": 3300
+      },
+      {
+        "nombre": "Las Maicas",
+        "auto": 1800,
+        "camion": 3300
+      },
+      {
+        "nombre": "Troncal Norte - Pua",
+        "auto": 1700,
+        "camion": 3100
+      },
+      {
+        "nombre": "Troncal Sur - Quepe",
+        "auto": 1700,
+        "camion": 3100
+      },
+      {
+        "nombre": "Troncal Lanco",
+        "auto": 1700,
+        "camion": 3100
+      },
+      {
+        "nombre": "Troncal La Union",
+        "auto": 1700,
+        "camion": 3100
+      },
+      {
+        "nombre": "Troncal Purranque",
+        "auto": 1700,
+        "camion": 3100
+      },
+      {
+        "nombre": "Troncal Bypass Puerto Montt",
+        "auto": 500,
+        "camion": 900
+      }
+    ]
+  },
+  "combustible": {
+    "precio_litro_auto": 1450,
+    "precio_litro_camion": 1100,
+    "consumo_km_lt_auto": 10,
+    "consumo_km_lt_camion": 6
+  },
+  "alojamiento": {
+    "habitacion_doble": {
+      "bajo": 20000,
+      "promedio": 70000,
+      "alto": 60000
+    },
+    "habitacion_single": {
+      "bajo": 0,
+      "promedio": 0,
+      "alto": 0
+    }
+  },
+  "imprevistos_porcentaje": 0.15,
+  "kilometraje": [
+    {
+      "ciudad": "Arica",
+      "km": 2100
+    },
+    {
+      "ciudad": "Iquique",
+      "km": 1800
+    },
+    {
+      "ciudad": "Calama",
+      "km": 1600
+    },
+    {
+      "ciudad": "Tocopilla",
+      "km": 1561
+    },
+    {
+      "ciudad": "Mejillones",
+      "km": 1454
+    },
+    {
+      "ciudad": "Antofagasta",
+      "km": 1377
+    },
+    {
+      "ciudad": "Chanaral",
+      "km": 976
+    },
+    {
+      "ciudad": "Copiapo",
+      "km": 803
+    },
+    {
+      "ciudad": "Vallenar",
+      "km": 663
+    },
+    {
+      "ciudad": "La Serena",
+      "km": 470
+    },
+    {
+      "ciudad": "Ovalle",
+      "km": 403
+    },
+    {
+      "ciudad": "Illapel",
+      "km": 281
+    },
+    {
+      "ciudad": "La Ligua",
+      "km": 150
+    },
+    {
+      "ciudad": "Quillota",
+      "km": 110
+    },
+    {
+      "ciudad": "Los Andes",
+      "km": 78
+    },
+    {
+      "ciudad": "Santiago",
+      "km": 0
+    },
+    {
+      "ciudad": "Sn. Fco. Mostazal",
+      "km": 65
+    },
+    {
+      "ciudad": "Rancagua",
+      "km": 84
+    },
+    {
+      "ciudad": "Santa Cruz",
+      "km": 191
+    },
+    {
+      "ciudad": "Curico",
+      "km": 194
+    },
+    {
+      "ciudad": "Talca",
+      "km": 257
+    },
+    {
+      "ciudad": "Chillan",
+      "km": 404
+    },
+    {
+      "ciudad": "Concepcion",
+      "km": 500
+    },
+    {
+      "ciudad": "Temuco",
+      "km": 676
+    },
+    {
+      "ciudad": "Valdivia",
+      "km": 841
+    },
+    {
+      "ciudad": "Osorno",
+      "km": 923
+    },
+    {
+      "ciudad": "Puerto Montt",
+      "km": 1025
+    }
+  ]
+}

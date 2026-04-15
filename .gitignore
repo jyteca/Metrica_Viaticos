@@ -1,0 +1,13 @@
+# Directorios a excluir de Github
+dist/
+build/
+__pycache__/
+.streamlit/
+*.spec
+*.exe
+*.log
+*.sqlite3
+
+# Archivos propios de configuracion local temporal del usuario
+config/historial/*.json
+config/solicitud_actual.json
