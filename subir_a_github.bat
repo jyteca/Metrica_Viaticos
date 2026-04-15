@@ -1,22 +1,12 @@
 @echo off
-echo Inicializando repositorio local de Git...
-git init
-git branch -M main
-
+echo Actualizando los archivos hacia tu GitHub...
 echo.
-echo Agregando archivos al paquete (excluyendo lo pesado segun .gitignore)...
+
 git add .
-git commit -m "Solución de Viaticos y Fondos (Streamlit)"
+git commit -m "Reparando dependencias de libcairo en servidor (packages.txt)"
+git push origin main
 
 echo.
-echo Conectando con tu repositorio en GitHub...
-git remote add origin https://github.com/jyteca/Metrica_Viaticos.git
-
-echo.
-echo Subiendo proyecto a Internet...
-echo (NOTA: Si es tu primera vez, puede abrirse una ventanita de Windows pidiendote iniciar sesion en Github o dar acceso)
-git push -u origin main
-
-echo.
-echo Proceso de subida finalizado con exito! 
+echo Codigo sincronizado! 
+echo Vuelve a la pantalla de Streamlit Cloud y presiona 'Re-deploy' o 'Reboot app'.
 pause
